@@ -7,11 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "ng-package": "ng-packagr -p ng-package.json && cp -r ./src/assets ./dist/src/assets"
+    "e2e": "ng e2e"
   },
-  "private": false,
-  "peerDependencies": {
+  "private": true,
+  "dependencies": {
     "@angular/animations": "^6.0.3",
     "@angular/common": "^6.0.3",
     "@angular/compiler": "^6.0.3",
@@ -23,6 +22,7 @@
     "@angular/router": "^6.0.3",
     "core-js": "^2.5.4",
     "jquery": "^3.3.1",
+    "hoek": "^5.0.3",
     "jquery-ui-dist": "^1.12.1",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
@@ -48,8 +48,5 @@
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
     "typescript": "~2.7.2"
-  },
-  "dependencies": {
-    "hoek": "^5.0.3"
   }
 }
