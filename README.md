@@ -26,21 +26,17 @@ npm install --save ngx-teslas-date-picker
 ### Inside app.module file import the directive and module:
 
 ```
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 import {DatetimeModule, NgxTeslaDatetimePickerDirective} from 'ngx-teslas-date-picker';
-import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    ...
   ],
   imports: [
-    BrowserModule,
     DatetimeModule
   ],
   providers: [NgxTeslaDatetimePickerDirective],
-  bootstrap: [AppComponent]
+  bootstrap: [...]
 })
 export class AppModule { }
 ```
@@ -49,7 +45,7 @@ export class AppModule { }
 ```
 <input type="text" id="startid" [readonly]="false" [minimumDate]="false" [onlyDatePicker]="false" (dateChange)="onStartDateChange($event)" appNgxTeslaDatetimePicker/>
 ```
-### You can also access the value of the picker in your component like so:
+### You can also access the value of the picker in your component file like so:
 
 ```
 startDate:any = new Date();
