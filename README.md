@@ -33,7 +33,9 @@ import {DatetimeModule, NgxTeslaDatetimePickerDirective} from 'ngx-teslas-date-p
     ...
   ],
   imports: [
-    DatetimeModule
+    ... ,
+    DatetimeModule,
+    ... ,
   ],
   providers: [NgxTeslaDatetimePickerDirective],
   bootstrap: [...]
