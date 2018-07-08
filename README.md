@@ -39,6 +39,7 @@ import {DatetimeModule, NgxTeslaDatetimePickerDirective} from 'ngx-teslas-date-p
   bootstrap: [...]
 })
 export class AppModule { }
+
 ```
 ### In your HTML file you can do:
 
