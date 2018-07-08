@@ -46,7 +46,7 @@ export class AppModule { }
 ```
 <input type="text" id="startid" [readonly]="false" [minimumDate]="false" [onlyDatePicker]="false" (dateChange)="onStartDateChange($event)" appNgxTeslaDatetimePicker/>
 ```
-### You can also access the value of the picker in your component file like so:
+### You can then access the value of the picker in your component file like so:
 
 ```
 startDate:any = new Date();
