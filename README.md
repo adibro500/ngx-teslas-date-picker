@@ -4,7 +4,7 @@ This is an angular directive for date-time picker. This is built on top of jquer
 
 ## Installation
 ```
-npm install --save ngx-teslas-date-picker
+npm install --save ngx-teslas-date-picker@latest
 ```
 
 ## Usage
