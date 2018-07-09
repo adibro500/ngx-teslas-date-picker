@@ -57,6 +57,4 @@ onStartDateChange(date){
     this.startDate = new Date(this.startDate).toISOString();
   }
 ```
-# This project is available from July 10, 2018
-
-    Thanks from adibro500...
+Have fun !!!
